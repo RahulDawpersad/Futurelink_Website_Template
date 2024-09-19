@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Recruitment Solutions | Permanent & Temporary Staff</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Link to Font Awesome -->
+  <script src="https://kit.fontawesome.com/655b3b7e45.js" crossorigin="anonymous"></script>
+
+  <!-- Link to BoxIcons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script>
+    grecaptcha.execute();
+  </script>
+</head>
+
+<body>
+
+  <div class="container-xxl bg-white p-0">
+    <!-- Spinner Start -->
+    <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div> -->
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+      <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+        <h1 class="m-0"><span>FUTURE</span>LINK</h1>
+        <img src="img/favicon.png" width="40" height="40" alt="Link-Next-To-Logo" />
+        <!-- <img src="img/futurelink-high-resolution-logo.png" width="170" height="75" alt=""> -->
+      </a>
+      <div class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a href="index.html" class="nav-item nav-link active">Home</a>
+          <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+            <div class="dropdown-menu m-0">
+              <a href="job-list.html" class="dropdown-item">Permanent Recruitment</a>
+              <a href="job-detail.html" class="dropdown-item">Contract Staffing</a>
+              <a href="job-detail.html" class="dropdown-item">Training</a>
+            </div>
+          </div>
+          <a href="" class="nav-item nav-link">Vacancies</a>
+          <a href="" class="nav-item nav-link">Team</a>
+          <a href="" class="nav-item nav-link">Blog</a>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
+        </div>
+        <a href="" class="btn rounded-0 py-4 px-lg-5 d-none d-lg-block">Register<i
+            class="fa fa-arrow-right ms-3"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+      <div class="owl-carousel header-carousel position-relative">
+        <div class="owl-carousel-item position-relative">
+          <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+          <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+            style="background: rgba(43, 57, 64, 0.5)">
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-10 col-lg-8">
+                  <h1 class="display-3 text-white animated slideInDown mb-4">
+                    Find Your Perfect Job with Us
+                  </h1>
+                  <p class="fs-5 fw-medium text-white mb-4 pb-2">
+                    Discover the ideal career fit with Futurelink's expert
+                    guidance and global network.
+                  </p>
+                  <a href="" class="btn btn-search py-md-3 px-md-5 me-3 animated slideInLeft">Search A Job</a>
+                  <a href="" class="btn btn-talent py-md-3 px-md-5 animated slideInRight">Find A Talent</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel-item position-relative">
+          <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+          <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+            style="background: rgba(43, 57, 64, 0.5)">
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-10 col-lg-8">
+                  <h1 class="display-3 text-white animated slideInDown mb-4">
+                    Unlock Your Dream Career Today
+                  </h1>
+                  <p class="fs-5 fw-medium text-white mb-4 pb-2">
+                    Turn your career dreams into reality with Futurelink's
+                    support and expertise.
+                  </p>
+                  <a href="" class="btn btn-search py-md-3 px-md-5 me-3 animated slideInLeft">Search A Job</a>
+                  <a href="" class="btn btn-talent py-md-3 px-md-5 animated slideInRight">Find A Talent</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="about-content col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+            <h1 class="mb-4">
+              ABOUT <span>FUTURE</span>LINK
+            </h1>
+            <p class="mb-4">
+              Celebrating 25 years of expertise, Futurelink specializes in
+              connecting skilled candidates with top-tier opportunities
+              worldwide. Our dedicated recruiters leverage our extensive
+              global database to ensure clients receive nothing but the best
+              talent available.
+            </p>
+            <p>
+              We don't just make placements; we build lasting partnerships based on trust and reliability. By
+              understanding both client needs and candidate aspirations, we create connections that propel careers and
+              businesses forward.
+            </p>
+          </div>
+          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="row g-0 about-bg rounded overflow-hidden">
+              <div class="col-6 text-start">
+                <img class="img-fluid w-100" src="img/about-1.jpg" />
+              </div>
+              <div class="col-6 text-start">
+                <img class="img-fluid" src="img/about-2.jpg" style="width: 85%; margin-top: 15%" />
+              </div>
+              <div class="col-6 text-end">
+                <img class="img-fluid" src="img/about-3.jpg" style="width: 85%" />
+              </div>
+              <div class="col-6 text-end">
+                <img class="img-fluid w-100" src="img/about-4.jpg" />
+              </div>
+            </div>
+          </div>
+          <!-- <div class="about-content col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+              <h1 class="mb-4">
+                ABOUT <span>FUTURE</span>LINK
+              </h1>
+              <p class="mb-4">
+                Celebrating 25 years of expertise, Futurelink specializes in
+                connecting skilled candidates with top-tier opportunities
+                worldwide. Our dedicated recruiters leverage our extensive
+                global database to ensure clients receive nothing but the best
+                talent available.
+              </p>
+              <p>
+                We don't just make placements; we build lasting partnerships based on trust and reliability. By understanding both client needs and candidate aspirations, we create connections that propel careers and businesses forward.
+              </p>
+            </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Services Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="about-content">
+              <h1 class="mb-4">
+                <span>FUTURE</span>LINK SERVICES
+              </h1>
+              <p class="mb-4">
+                We specialize in placing staff within the following sectors:
+              </p>
+              <ul class="list">
+                <li>Manufacturing across all disciplines</li>
+                <li>Technical and Engineering</li>
+                <li>Building and Construction</li>
+                <li>Supply Chain, Warehousing and Logistics</li>
+                <li>Imports, Exports and Shipping</li>
+                <li>Office Support and Administration</li>
+                <li>Human Resources</li>
+                <li>Marketing and Advertising</li>
+                <li>Finance</li>
+                <li>Sales, Key Account Management and Business Development</li>
+                <li>Legal Services</li>
+                <li>Information Technology</li>
+                <li>High-level Executive Placements</li>
+              </ul>
+              <p class="heading-one">
+                HEAD OFFICE - UNITED KINGDOM - Futurelink Global Recruitment Ltd
+              </p>
+              <ul>
+                <li>Permanent Placements</li>
+                <li>Temporary Placements</li>
+                <li>Outsourced Projects</li>
+                <li>Outsourced Consultants</li>
+              </ul>
+              <p class="heading-one">
+                HEAD OFFICE - SOUTH AFRICA - Futurelink Permanent Placements (Pty) Ltd & Futurelink Flexible Staffing
+                (Pty) Ltd
+              </p>
+              <ul>
+                <li>Permanent Placements</li>
+                <li>Temporary Placements</li>
+                <li>Outsourced Projects</li>
+                <li>Outsourced Consultants</li>
+                <li>Outsourced Payroll</li>
+                <li>Industrial Relations</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <img class="img-fluid w-100 img-reference" src="img/futurelink-service-img1.jpg" alt="Reference Image">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services End -->
+
+    <!-- New Section -->
+    <div class="container-xxl py-5 bg-section" id="bg-section">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-12 text-center wow fadeIn">
+            <h2>Ready to grow your organisation with Futurelink Global Recruitment?</h2>
+            <p>Get in touch with us and find out how we can help you reach your business's potential.</p>
+            <a href="#" class="btn btn-talent py-md-3 px-md-5 animated slideInRight">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Of New Section -->
+
+    <!-- Category Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+          <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            Explore Current Vacancies
+          </h1>
+          <div class="row g-4">
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-solid fa-money-bill-trend-up text-icon mb-4"></i>
+                <p class="mb-0">TRADE TESTED MILLWRIGHT</p>
+                <p class="mb-0">LOCATION: Netherlands</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-solid fa-plug text-icon mb-4"></i>
+                <p class="mb-0">TRADE TESTED ELECTRICIAN</p>
+                <p class="mb-0">LOCATION: Netherlands</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-solid fa-gas-pump text-icon mb-4"></i>
+                <p class="mb-0">TRADE TESTED DIESEL MECHANIC</p>
+                <p class="mb-0">LOCATION: Netherlands</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-chalkboard-user text-icon mb-4"></i>
+                <p class="mb-0">TRADE TESTED INSTRUMENT TECHNICIAN</p>
+                <p class="mb-0">LOCATION: Netherlands</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-people-roof text-icon mb-4"></i>
+                <p class="mb-0">SALES MANAGER [METALS / METALS RECYCLING]</p>
+                <p class="mb-0">LOCATION: Durban</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-magnifying-glass-chart text-icon mb-4"></i>
+                <p class="mb-0">GRADUATE: DATA ANALYST</p>
+                <p class="mb-0">LOCATION: Durban</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-people-roof text-icon mb-4"></i>
+                <p class="mb-0">COST CONTROL MANAGER</p>
+                <p class="mb-0">LOCATION: Durban</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-handshake-angle text-icon mb-4"></i>
+                <p class="mb-0">EXECUTIVE PERSONAL ASSISTANT / OFFICE MANAGER</p>
+                <p class="mb-0">LOCATION: London, United Kingdom</p>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-industry text-icon mb-4"></i>
+                <p class="mb-0">INDUSTRIAL DESIGNER [MANUFACTURING]</p>
+                <p class="mb-0">LOCATION: Durban</p>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-ink text-icon mb-4"></i>
+                <p class="mb-0">SENIOR INK TECHNICIAN / MANAGER [INK MANUFACTURING</p>
+                <p class="mb-0">LOCATION: Johannesburg</p>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-handshake-angle text-icon mb-4"></i>
+                <p class="mb-0">EXECUTIVE PERSONAL ASSISTANT / OFFICE MANAGER</p>
+                <p class="mb-0">LOCATION: London, United Kingdom</p>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-handshake-angle text-icon mb-4"></i>
+                <p class="mb-0">EXECUTIVE PERSONAL ASSISTANT / OFFICE MANAGER</p>
+                <p class="mb-0">LOCATION: London, United Kingdom</p>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div> -->
+    <div class="section-jobs container-xxl py-5">
+      <div class="container">
+        <h1 class="text-center mb-4 wow fadeInUp" data-wow-delay="0.1s">
+          Explore Current Vacancies
+        </h1>
+        <div class="row g-5 section-row">
+          <!-- Job Vacancies Here -->
+
+          <!-- Netherlands Positions -->
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="cat-item rounded p-4" href="">
+              <!-- <i class="fa fa-3x fa-magnifying-glass-chart text-icon mb-4"></i> -->
+              <i class='fa fa-3x bx bxs-data text-icon mb-4'></i>
+              <p class="mb-0 text-paragaph">GRADUATE: DATA ANALYST</p>
+              <p class="mb-0 text-location">LOCATION: Durban</p>
+              <a href="#" class="job-link">View Job</a>
+            </div>
+
+          </div>
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="cat-item rounded p-4" href="">
+              <!-- <i class="fa fa-3x fa-people-roof text-icon mb-4"></i> -->
+              <i class='fa fa-3x bx bxs-purchase-tag-alt text-icon mb-4'></i>
+              <p class="mb-0 text-paragaph">COST CONTROL MANAGER</p>
+              <p class="mb-0 text-location">LOCATION: Durban</p>
+              <a href="#" class="job-link">View Job</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="cat-item rounded p-4" href="">
+              <i class="fa fa-3x bx bx-recycle text-icon mb-4"></i>
+              <p class="mb-0 text-paragaph">SALES MANAGER METALS RECYCLING</p>
+              <p class="mb-0 text-location">LOCATION: Durban</p>
+              <a href="#" class="job-link">View Job</a>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="cat-item rounded p-4" href="">
+              <i class="fa fa-3x fa-solid fa-money-bill-trend-up text-icon mb-4"></i>
+              <p class="mb-0 text-paragaph">TRADE TESTED MILLWRIGHT</p>
+              <p class="mb-0 text-location">LOCATION: Netherlands</p>
+              <a href="#" class="job-link">View Job</a>
+            </div>
+          </div>
+          <!-- <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a class="cat-item rounded p-4" href="">
+                        <i class="fa fa-3x fa-solid fa-plug text-icon mb-4"></i>
+                        <p class="mb-0">TRADE TESTED ELECTRICIAN</p>
+                        <p class="mb-0">LOCATION: Netherlands</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a class="cat-item rounded p-4" href="">
+                        <i class="fa fa-3x fa-solid fa-gas-pump text-icon mb-4"></i>
+                        <p class="mb-0">TRADE TESTED DIESEL MECHANIC</p>
+                        <p class="mb-0">LOCATION: Netherlands</p>
+                    </a>
+                </div> -->
+          <!-- <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <a class="cat-item rounded p-4" href="">
+                        <i class="fa fa-3x fa-chalkboard-user text-icon mb-4"></i>
+                        <p class="mb-0">TRADE TESTED INSTRUMENT TECHNICIAN</p>
+                        <p class="mb-0">LOCATION: Netherlands</p>
+                    </a>
+                </div> -->
+
+          <!-- South Africa Positions -->
+
+
+
+          <!-- View More Button -->
+          <div class="col-lg-12 text-center mt-5">
+            <a href="#" class="btn btn-talent py-md-3 px-md-5 animated slideInRight">View More Vacancies</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dark Shadow -->
+    <!-- Dark Shadow -->
+
+
+    <!-- Category End -->
+
+    <!-- Jobs Start -->
+
+    <!-- Jobs End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Company</h5>
+            <a class="btn btn-link text-white-50" href="">About Futurelink</a>
+            <a class="btn btn-link text-white-50" href="">Contact Us</a>
+            <a class="btn btn-link text-white-50" href="">Our Services</a>
+            <a class="btn btn-link text-white-50" href="">Our Team</a>
+            <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Links</h5>
+            <a class="btn btn-link text-white-50" href="">Permanent Recruitment</a>
+            <a class="btn btn-link text-white-50" href="">Contract Staffing</a>
+            <a class="btn btn-link text-white-50" href="">Training</a>
+            <a class="btn btn-link text-white-50" href="">Current Vacancies</a>
+            <a class="btn btn-link text-white-50" href="">Blog</a>
+            <a class="btn btn-link text-white-50" href="">Register</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Contact</h5>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>South Africa
+            </p>
+            <!-- <p class="mb-2">
+                <i class="fa fa-phone-alt me-3"></i>+012 345 67890
+              </p> -->
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>service@futurelink.co.za
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>United Kingdom
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>service@futurelinkglobal.com
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+              <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Send Us Your Email</h5>
+            <!-- <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p> -->
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" />
+              <button type="button" class="btn btn-talent py-2 position-absolute top-0 end-0 mt-2 me-2">
+                SignUp
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-12 mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">Futurelink Global@2024</a>, All
+              Right Reserved.
+              Developed By
+              <a class="border-bottom" href="https://www.rahuldawpersad.com" target="_blank">Rahul Dawpersad</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <div class="g-recaptcha captcha" data-sitekey="6LfWXbkpAAAAAHc-W2-ey82bodbWPgHpvbYFdQQF" data-callback="onSubmit"
+      data-size="invisible">
+    </div>
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-arrow btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
+    </div> -->
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
